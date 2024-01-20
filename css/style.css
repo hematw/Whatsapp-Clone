@@ -88,7 +88,7 @@ header {
     padding-top: 6%;
 }
 
-div[class^="section-"].d-flex div{
+section[class^="section-"].d-flex div {
     max-width: 420px;
 }
 
@@ -97,7 +97,8 @@ div[class^="section-"].d-flex div{
     margin-left: 14px;
 }
 
-.section-4, .footer {
+.section-4,
+.footer {
     background-color: #111B21;
 }
 
@@ -115,14 +116,14 @@ h1 span.green {
 }
 
 .footer-links {
-    padding: 60px 0;
+    padding-top: 60px;
 }
 
 .footer {
     padding: 32px 10%;
 }
 
-.footer p {
+.footer div p {
     margin-bottom: 20px;
     font-size: small;
 }
@@ -135,4 +136,81 @@ h1 span.green {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.social-links a {
+    color: #FCF5EB;
+    background-color: transparent;
+    border: 1px solid #FCF5EB;
+    border-radius: 50%;
+    padding: 16px;
+    font-size: medium;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all .8s ease-in;
+}
+
+.social-links a::after {
+    content: "";
+    width: 51px;
+    height: 51px;
+    background-color: #111B21;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50%;
+    right: -2px;
+    z-index: -1;
+    transition: .5s ease-in;
+    transform: scale(0);
+}
+
+.social-links a:hover {
+    color: #111B21;
+    border-color: transparent;
+}
+
+.social-links a:hover::after {
+    background-color: #25D366;
+    bottom: 0;
+    transform: scale(1);
+}
+
+select#lang {
+    width: 200px;
+    color: #FCF5EB;
+    font-size: large;
+    padding: 14px 20px;
+    background-color: transparent;
+    border: 2px solid #FCF5EB;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+select#lang option {
+    color: #111B21;
+    background-color: #E9E8E8;
+}
+
+.animate {
+    transition: opacity .5s;
+}
+
+section.show-animate .animate {
+    opacity: 1;
+}
+
+.navbar-toggler-icon {
+    z-index: 1;
+}
+
+.collapse {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 830px) {
+    section[class^="section-"] {
+        flex-direction: column;
+    }
 }

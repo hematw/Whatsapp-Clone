@@ -1,0 +1,77 @@
+{
+    "en": [
+        {
+            "features": "Features",
+            "privacy": "Privacy",
+            "help": "Help Center",
+            "blog": "Blog",
+            "business": "For Bussiness",
+            "web": "WhatsApp Web",
+            "download": "Download",
+            "learn_more": "Learn more",
+            "sec1_h": "Message Privatly",
+            "sec1_p": "Simple, reliable, private messaging and calling for free*, available all over the world",
+            "sec2_h": "With private messaging and calling, you can be yourself, speak freely and feel close to the most important people in your life no matter where they are.",
+            "sec3_h": "Never Miss a Moment with Voice and Video Calls",
+            "sec3_p": "With voice and video calls, feel like you're in the same room for any occasion, whether it's a group call with your classmates or a quick catch-up with your mom.",
+            "sec4_h": "Speak Freely",
+            "sec4_p": "Your personal messages and calls are secured with end-to-end encryption. The content you send can only be read or listened to by you and the person you're talking to. No one in between, not even WhatsApp, can read or listen.",
+            "sec5_h": "Keep in touch with your groups",
+            "sec5_p": "Group chats make it easy to stay in touch with your friends when planning outings or keeping up with family conversations.",
+            "sec6_h": "Say what you feel",
+            "sec6_p": "Express yourself without words. Use stickers or GIFs, or share everyday moments on Status. Record voice messages to quickly say hello or tell a longer story.",
+            "sec7_h": "Transform Your Business",
+            "sec7_p": "WhatsApp Business helps you reach customers around the world, enabling you to provide stunning experiences at scale. Showcase your products and services, boost sales, and build new relationships via WhatsApp."
+        }
+    ],
+    "pr": [
+        {
+            "features": "ویژگی‌ها",
+            "privacy": "حریم خصوصی",
+            "help": "مرکز راهنمایی",
+            "blog": "وبلاگ",
+            "business": "برای کسب‌وکار",
+            "web": "واتساپ وب",
+            "download": "دانلود",
+            "learn_more": "بیشتر بدانید",
+            "sec1_h": "پیام‌رسانی خصوصی",
+            "sec1_p": "پیام‌رسانی و تماس تلفنی ساده، قابل اعتماد و خصوصی به‌طور رایگان* در همه نقاط جهان دردسترس است.",
+            "sec2_h": "با پیام‌رسانی و تماس خصوصی، می‌توانید خودتان باشید، آزادانه صحبت کنید و احساس نزدیکی به مهمترین افراد زندگیتان را در هر جایی داشته باشید.",
+            "sec3_h": "هیچ لحظه‌ای را از دست ندهید با تماس‌های صوتی و تصویری",
+            "sec3_p": "با تماس‌های صوتی و تصویری، برای هر مناسبتی مثل یک تماس گروهی با همکلاسی‌هایتان یا یک گفتگوی کوتاه با مادرتان، احساس کنید که مثل اینکه در همان اتاق هستید.",
+            "sec4_h": "آزادانه صحبت کنید",
+            "sec4_p": "پیام‌ها و تماس‌های شما با رمزنگاری انتها به انتها محافظت می‌شوند. محتواهایی که ارسال می‌کنید فقط توسط شما و شخصی که با او صحبت می‌کنید قابل خواندن یا گوش دادن است. هیچ کسی در میان، حتی واتساپ، نمی‌تواند آن را بخواند یا گوش دهد.",
+            "sec5_h": "ارتباط با گروه‌های خود را حفظ کنید",
+            "sec5_p": "چت‌های گروهی به شما در برنامه‌ریزی برای بیرون رفتن با دوستانتان یا پیگیری اطلاعات در گفتگوهای خانوادگی کمک بسیاری می‌کنند.",
+            "sec6_h": "احساسات خود را بیان کنید",
+            "sec6_p": "بدون استفاده از کلمات خود را بیان کنید. استیکرها یا GIFها را استفاده کنید یا لحظه‌های روزمره‌تان را در وضعیت‌ها به اشتراک بگذارید. پیام‌های صوتی را ضبط کنید تا به سرعت سلامی بگویید یا یک داستان بلند تر بگویید.",
+            "sec7_h": "تغییر کسب و کار خود را به وجود آورید",
+            "sec7_p": "واتساپ بیزینس به شما کمک می‌کند تا بهتازگی، متن پیام ها و تماس های شخصی شما با استفاده از رمزنگاری انتها به انتها محافظت میشوند. محتوایی که ارسال میکنید فقط توسط شما و فردی که با او صحبت کردید قابل مشاهده است. هیچ کس دیگری، حتی واتساپ، نمی‌تواند آن را بخواند یا گوش کند."
+        }
+    ],
+    "tr": [
+        {
+            "features": "Özellikler",
+            "privacy": "Gizlilik",
+            "help": "Yardım Merkezi",
+            "blog": "Blog",
+            "business": "İşletmeler İçin",
+            "web": "WhatsApp Web",
+            "download": "İndir",
+            "learn_more": "Daha fazla bilgi",
+            "sec1_h": "Mesajlaşırken gizliliğinizi koruyun",
+            "sec1_p": "Dünyanın her yerinde ücretsiz kullanılabilen basit, güvenilir, özel mesajlaşma ve arama*.",
+            "sec2_h": "Özel mesajlaşma ve arama sayesinde kendiniz olabilir, özgürce konuşabilir ve nerede olurlarsa olsunlar hayatınızdaki en önemli kişilere yakın hissedebilirsiniz.",
+            "sec3_h": "Sesli ve görüntülü aramalarla hiçbir anı kaçırmayın",
+            "sec3_p": "Sesli ve görüntülü aramalar sayesinde, sınıf arkadaşlarınızla yapacağınız bir grup aramasından annenizle yapacağınız kısa bir görüşmeye kadar her durumda sanki aynı odadaymışsınız gibi hissedin.",
+            "sec4_h": "Özgürce konuşun",
+            "sec4_p": "Uçtan uca şifreleme sayesinde kişisel mesaj ve aramalarınız güvence altına alınır. Gönderilen içerikler yalnızca siz ve konuştuğunuz kişi tarafından okunabilir veya dinlenebilir. WhatsApp dahil olmak üzere aradaki hiç kimse okuyamaz veya dinleyemez.",
+            "sec5_h": "Gruplarınızla iletişimde kalın",
+            "sec5_p": "Arkadaşlarınızla gezintiye çıkmayı planlarken veya ailenizin sohbetlerindeki gelişmeleri takip ederken grup sohbetleri işinizi çok kolaylaştıracak.",
+            "sec6_h": "Hissettiklerinizi söyleyin",
+            "sec6_p": "Kendinizi sözcük kullanmadan ifade edin. Çıkartmalar veya GIF'ler kullanın ya da gündelik anları Durum'da paylaşın. Çabucak merhaba demek veya uzun bir hikaye anlatmak için sesli mesaj kaydedin.",
+            "sec7_h": "İşletmenize dönüşüm yaşatın",
+            "sec7_p": "WhatsApp Business, çarpıcı deneyimleri geniş ölçekte sunabilmeniz için tüm dünyadaki müşterilerinize erişmenize yardımcı olur. WhatsApp sayesinde ürün ve hizmetlerinizi sergileyin, satışlarınızı artırın ve yeni ilişkiler kurun."
+        }
+    ]
+}

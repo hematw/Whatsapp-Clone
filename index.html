@@ -4,192 +4,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./appml/2.0.3/appml.js"></script>
     <title>WhatsApp | Secure and Reliable</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./appml/2.0.3/appml.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-    <header class="d-flex justify-content-between align-items-center">
-        <span class="logo">
-            <img src="/images/whatsapp_logo.png" alt="">
-        </span>
-        <nav>
-            <ul class="nav align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link text-body">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">Privacy</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">Help Center</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">For Bussines</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">Whatsapp Web</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-body">Download</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="rounded-pill btn border-dark">
-            <span>Download</span>
-            <i class="bi bi-download"></i>
-        </a>
-    </header>
+<body appml-data="data.json">
+    <div appml-repeat="en">
+        <header class="d-flex justify-content-between align-items-center navbar navbar-expand-lg bg-body-tertiary"">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+            </button>
+            <span class="logo navbar-brand">
+                <img src="./images/whatsapp_logo.png" alt="">
+            </span>
+            <nav class="collapse navbar-collapse " id="navbarNav">
+                <ul class="align-items-center navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{features}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{privacy}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{help}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{blog}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{business}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{web}}</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-body">{{download}}</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="rounded-pill btn border-dark">
+                <span>{{download}}</span>
+                <i class="bi bi-download"></i>
+            </a>
+        </header>
+        <section class="main-section container-fluid">
+            <div class="animate main-background d-flex justify-content-evenly align-items-center">
+                <img src="./images/main_back.png">
+                <div class="main-content container d-flex justify-content-between align-items-center">
+                    <div class="main-text text-light fw-bold">
+                        <h1 class="display-2">{{sec1_h}}</h1>
+                        <p>{{sec1_p}}</p>
+                        <a href="#" class="rounded-pill btn">
+                            <span>{{download}}</span>
+                            <i class="bi bi-download"></i>
+                        </a>
+                    </div>
+                    <div class="main-msg">
+                        <img src="./images/mesage1.png" alt="">
+                        <img src="./images/mesage2.png" alt="">
+                        <img src="./images/mesage3.png" alt="">
+                        <img src="./images/mesage4.png" alt="">
+                        <img src="./images/mesage5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-2 container-fluid">
+            <div class="animate">
+                <img src="./images/image7.png" alt="">
+            </div>
+            <div class="text-content animate">
+                <h2>{{sec2_h}}</h2>
+            </div>
+            <div class="animate">
+                <img src="./images/image8.png" alt="">
+            </div>
+        </section>
 
-    <div class="main-section container-fluid">
-        <div class="main-background d-flex justify-content-evenly align-items-center">
-            <img src=" /images/main_back.png">
-            <div class="main-content container d-flex justify-content-between align-items-center">
-                <div class="main-text text-light fw-bold">
-                    <h1 class="display-2">Message privately</h1>
-                    <p>Simple, reliable, private messaging and calling for free*, available all over the world.</p>
-                    <a href="#" class="rounded-pill btn">
-                        <span>Download</span>
+        <section class="section-3 container-fluid d-flex justify-content-around align-items-center">
+            <div class="text-content animate">
+                <h1 class="display-4">{{sec3_h}}</h1>
+                <p>{{sec3_p}}</p>
+                <a href="#" class="text-decoration-none link-dark green">{{learn_more}}<span>&#8250;</span></a>
+            </div>
+            <div class="phone-img animate">
+                <img src="./images/image9.png" alt="">
+            </div>
+        </section>
+
+        <section class="section-4 container-fluid d-flex justify-content-around align-items-center">
+            <div class="phone-img animate">
+                <img src="./images/image10.png" alt="">
+            </div>
+            <div class="text-content text-light animate">
+                <h1 class="display-4 fw-semibold">{{sec4_h}}<br><span class="green"></span></h1>
+                <p>{{sec4_p}}</p>
+                <a href="#" class="text-decoration-none link-light green">{{learn_more}}<span>&#8250;</span></a>
+            </div>
+        </section>
+
+        <section class="section-5 container-fluid d-flex justify-content-around align-items-center">
+            <div class="text-content animate">
+                <h1 class="display-4">{{sec5_h}}</h1>
+                <p>{{sec5_p}}</p>
+                <a href="#" class="text-decoration-none link-dark green">{{learn_more}}<span>&#8250;</span></a>
+            </div>
+            <div class="phone-img position-relative animate">
+                <img src="./images/image11b.png" alt="">
+                <img src="./images/image11.png" alt="" class="position-absolute top-50 start-50 translate-middle"
+                    id="front">
+            </div>
+        </section>
+
+        <section class="section-6 container-fluid d-flex justify-content-evenly align-items-center">
+            <div class="phone-img position-relative animate">
+                <img src="./images/image12b.png" alt="">
+                <img src="./images/image12.png" alt="" class="position-absolute top-50 start-50 translate-middle"
+                    id="front">
+            </div>
+            <div class="text-content animate">
+                <h1 class="display-4">{{sec6_h}}<br></h1>
+                <p>{{sec6_p}}</p>
+                <a href="#" class="text-decoration-none link-dark green">{{learn_more}}<span>&#8250;</span></a>
+            </div>
+        </section>
+
+        <section class="section-7 container-fluid d-flex justify-content-evenly align-items-center">
+            <div class="text-content animate">
+                <h1 class="display-4">{{sec7_h}}</h1>
+                <p>{{sec7_p}}</p>
+                <a href="#" class="text-decoration-none link-dark green">{{learn_more}}<span>&#8250;</span></a>
+            </div>
+            <div class="phone-img position-relative animate">
+                <img src="./images/image13.png" alt="">
+            </div>
+        </section>
+
+        <section class="footer container-fluid">
+            <div class="footer-links d-flex container-fluid justify-content-between border-bottom border-secondary">
+                <div class="d-flex justify-content-between align-items-center flex-column">
+                    <a href="#">
+                        <img src="./images/logo_white.png" alt="whatsapp logo">
+                    </a>
+                    <a href="#" class="rounded-pill btn border-dark">
+                        <span>{{download}}</span>
                         <i class="bi bi-download"></i>
                     </a>
                 </div>
-                <div class="main-msg">
-                    <img src="/images/mesage1.png" alt="">
-                    <img src="/images/mesage2.png" alt="">
-                    <img src="/images/mesage3.png" alt="">
-                    <img src="/images/mesage4.png" alt="">
-                    <img src="/images/mesage5.png" alt="">
+                <div class="d-flex justify-content-between align-items-start flex-column">
+                    <p class="text-light">What we do</p>
+                    <a href="#" class="link-light">Features</a>
+                    <a href="#" class="link-light">Blog</a>
+                    <a href="#" class="link-light">Security</a>
+                    <a href="#" class="link-light">For Business</a>
+                </div>
+                <div class="d-flex justify-content-between align-items-start flex-column">
+                    <p class="text-light">Who we are</p>
+                    <a href="#" class="link-light">About us</a>
+                    <a href="#" class="link-light">Career</a>
+                    <a href="#" class="link-light">Brand Center</a>
+                    <a href="#" class="link-light">Privacy</a>
+                </div>
+                <div class="d-flex justify-content-between align-items-start flex-column">
+                    <p class="text-light">Use WhatsApp</p>
+                    <a href="#" class="link-light">Android</a>
+                    <a href="#" class="link-light">iPhone</a>
+                    <a href="#" class="link-light">Mac/PC</a>
+                    <a href="#" class="link-light">WhatsApp Web</a>
+                </div>
+                <div class="d-flex justify-content-between align-items-start flex-column">
+                    <p class="text-light">What we do</p>
+                    <a href="#" class="link-light">Contact Us</a>
+                    <a href="#" class="link-light">Help Center</a>
+                    <a href="#" class="link-light">Download</a>
+                    <a href="#" class="link-light">Security Advisories</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="section-2 container-fluid">
-        <div>
-            <img src="/images/image7.png" alt="">
-        </div>
-        <div class="text-content">
-            <h2>With private messaging and calling, you can be yourself, speak freely and feel close to the most
-                important people in your life no matter where they are.</h2>
-        </div>
-        <div>
-            <img src="/images/image8.png" alt="">
-        </div>
-    </div>
 
-    <div class="section-3 container-fluid d-flex justify-content-around align-items-center">
-        <div class="text-content">
-            <h1 class="display-4">Never miss a moment with voice and video calls</h1>
-            <p>From a group call to classmates to a quick call with mom, feel like you’re in the same room with voice
-                and video calls.</p>
-            <a href="#" class="text-decoration-none link-dark green"> Learn more<span>&#8250;</span></a>
-        </div>
-        <div class="phone-img">
-            <img src="/images/image9.png" alt="">
-        </div>
-    </div>
-
-    <div class="section-4 container-fluid d-flex justify-content-around align-items-center">
-        <div class="phone-img">
-            <img src="/images/image10.png" alt="">
-        </div>
-        <div class="text-content text-light">
-            <h1 class="display-4 fw-semibold">Speak<br><span class="green">freely</span></h1>
-            <p>With end-to-end encryption, your personal messages and calls are secured. Only you and the person you're
-                talking to can read or listen to them, and nobody in between, not even WhatsApp.</p>
-            <a href="#" class="text-decoration-none link-light green"> Learn more<span>&#8250;</span></a>
-        </div>
-    </div>
-
-    <div class="section-5 container-fluid d-flex justify-content-around align-items-center">
-        <div class="text-content">
-            <h1 class="display-4">Keep in touch with your groups</h1>
-            <p>Whether it's planning an outing with friends or simply staying on top of your family chats, group
-                conversations should feel effortless.</p>
-            <a href="#" class="text-decoration-none link-dark green"> Learn more<span>&#8250;</span></a>
-        </div>
-        <div class="phone-img position-relative">
-            <img src="/images/image11b.png" alt="">
-            <img src="/images/image11.png" alt="" class="position-absolute top-50 start-50 translate-middle" id="front">
-        </div>
-    </div>
-
-    <div class="section-6 container-fluid d-flex justify-content-evenly align-items-center">
-        <div class="phone-img position-relative">
-            <img src="/images/image12b.png" alt="">
-            <img src="/images/image12.png" alt="" class="position-absolute top-50 start-50 translate-middle" id="front">
-        </div>
-        <div class="text-content">
-            <h1 class="display-4">Say what<br>you feel</h1>
-            <p>Express yourself without words. Use stickers and GIFs or share everyday moments on Status. Record a voice
-                message for a quick hello or a longer story.</p>
-            <a href="#" class="text-decoration-none link-dark green"> Learn more<span>&#8250;</span></a>
-        </div>
-    </div>
-
-    <div class="section-7 container-fluid d-flex justify-content-evenly align-items-center">
-        <div class="text-content">
-            <h1 class="display-4">Transform<br>your business</h1>
-            <p>WhatsApp Business helps you reach your customers globally to deliver compelling experiences at scale.
-                Showcase your products and services, increase sales, and build relationships all with WhatsApp.</p>
-            <a href="#" class="text-decoration-none link-dark green"> Learn more<span>&#8250;</span></a>
-        </div>
-        <div class="phone-img position-relative">
-            <img src="/images/image13.png" alt="">
-        </div>
-    </div>
-
-    <div class="footer container-fluid" >
-        <div class="footer-links d-flex container-fluid justify-content-between border-bottom border-secondary">
-            <div class="d-flex justify-content-between align-items-center flex-column">
-                <a href="#">
-                    <img src="/images/logo_white.png" alt="whatsapp logo">
-                </a>
-                <a href="#" class="rounded-pill btn border-dark">
-                    <span>Download</span>
-                    <i class="bi bi-download"></i>
-                </a>
+            <div class="footer-links d-flex justify-content-between align-items-center"">
+            <p class=" link-light">2024 &copy; WhatsApp<br>LLC</p>
+                <p class="link-light">Terms & Privacy<br>Policy</p>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </div>
+                <select name="lang" id="lang">
+                    <option value="en">English</option>
+                    <option value="pr" selected>فارسی</option>
+                    <option value="tr">Turcke</option>
+                </select>
             </div>
-            <div class="d-flex justify-content-between align-items-start flex-column">
-                <p class="text-light">What we do</p>
-                <a href="#" class="link-light">Features</a>
-                <a href="#" class="link-light">Blog</a>
-                <a href="#" class="link-light">Security</a>
-                <a href="#" class="link-light">For Business</a>
-            </div>
-            <div class="d-flex justify-content-between align-items-start flex-column">
-                <p class="text-light">Who we are</p>
-                <a href="#" class="link-light">About us</a>
-                <a href="#" class="link-light">Career</a>
-                <a href="#" class="link-light">Brand Center</a>
-                <a href="#" class="link-light">Privacy</a>
-            </div>
-            <div class="d-flex justify-content-between align-items-start flex-column">
-                <p class="text-light">Use WhatsApp</p>
-                <a href="#" class="link-light">Android</a>
-                <a href="#" class="link-light">iPhone</a>
-                <a href="#" class="link-light">Mac/PC</a>
-                <a href="#" class="link-light">WhatsApp Web</a>
-            </div>
-            <div class="d-flex justify-content-between align-items-start flex-column">
-                <p class="text-light">What we do</p>
-                <a href="#" class="link-light">Contact Us</a>
-                <a href="#" class="link-light">Help Center</a>
-                <a href="#" class="link-light">Download</a>
-                <a href="#" class="link-light">Security Advisories</a>
-            </div>
-        </div>
-
-        <div class="footer-links d-flex justify-content-between align-items-center"">
-            <p class="link-light">2024 &copy; WhatsApp<br>LLC</p>
-            <p class="link-light">Terms & Privacy<br>Policy</p>
-            <div>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-youtube"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-            </div>
-            <select name="lang" id="lang">
-                <option value="english">English</option>
-                <option value="per">فارسی</option>
-                <option value="arb">عربی</option>
-            </select>
-        </div>
+        </section>
     </div>
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
